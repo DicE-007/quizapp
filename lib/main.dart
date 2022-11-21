@@ -32,7 +32,7 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    const _questions = [
+    var _questions = [
       {
         "questionText": "Whats your fav colour?",
         "answer": [
@@ -52,11 +52,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text(
-            "Quiz App",
-            style: TextStyle(fontStyle: FontStyle.italic),
-          ),
-          centerTitle: true,
+          title: Text("Yayyyyy"),
         ),
         body: _questionIndex < _questions.length
             ? Quiz(
