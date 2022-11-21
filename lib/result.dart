@@ -23,6 +23,7 @@ class Result extends StatelessWidget {
           SizedBox(height: 15),
           FloatingActionButton(
             onPressed: resetFunction,
+            tooltip: "Reset Quiz",
             backgroundColor: Colors.blue,
             child: Icon(Icons.navigation),
           )
